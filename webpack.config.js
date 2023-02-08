@@ -1,12 +1,12 @@
-const path = require('path');
-const ESLintPlugin = require('eslint-webpack-plugin');
+const path = require("path");
+const ESLintPlugin = require("eslint-webpack-plugin");
 
 module.exports = {
-  mode: 'development',
-  entry: path.resolve(__dirname, 'src/index.js'),
+  mode: "development",
+  entry: path.resolve(__dirname, "src/index.js"),
   output: {
-    path: path.resolve(__dirname, './dist'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, "./dist"),
+    filename: "bundle.js",
   },
   plugins: [new ESLintPlugin()],
   module: {
@@ -14,14 +14,24 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        use: ["babel-loader"],
+      },
+      {
+        test: /\.(jpg|png|jpeg)$/,
+        use: {
+          loader: "url-loader",
+        },
+      },
+      {
+        test: /\.(css)$/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
+    extensions: ["*", ".js", ".jsx"],
   },
   devServer: {
-    static: path.resolve(__dirname, './dist'),
+    static: path.resolve(__dirname, "./dist"),
   },
 };
