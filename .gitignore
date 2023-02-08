@@ -47,3 +47,6 @@ Thumbs.db
 # build and dist
 build/
 dist/
+
+# env
+.env*
