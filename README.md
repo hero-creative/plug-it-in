@@ -1,5 +1,6 @@
 # Plug-It-In
-A template for creating new Wordpress plugins using PHP, React, Webpack, and other technologies.
+v0.0.1 - A template for creating new Wordpress plugins using PHP, React, Webpack, and other technologies.
+
 
 ![](./cover.jpg)
 
