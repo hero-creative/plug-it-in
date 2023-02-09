@@ -1,5 +1,5 @@
 # Plug-It-In
-v0.0.1 - A template for creating new Wordpress plugins using PHP, React, Webpack, and other technologies.
+v0.0.2 - A template for creating new Wordpress plugins using PHP, React, Webpack, and other technologies.
 
 
 ![](./cover.jpg)
@@ -32,3 +32,9 @@ We welcome contributions to the project. Please fork the repository and open a p
 ## License
 The code in this repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
+## Change Log
+0.0.2
+- Update read me to better understand use-case for repo
+
+0.0.1
+- Initial Release
