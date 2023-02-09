@@ -1,6 +1,8 @@
 # Plug-It-In
 A template for creating new Wordpress plugins using PHP, React, Webpack, and other technologies.
 
+![](./cover.jpg)
+
 ## Technologies Used
 - PHP
 - React
@@ -28,3 +30,4 @@ We welcome contributions to the project. Please fork the repository and open a p
 
 ## License
 The code in this repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
